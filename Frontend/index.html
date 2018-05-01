@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Main Page</title>
+    <!-- Bootsrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css"/>
+</head>
+<body>
+<header class="header">
+    <p href="index.html" class="index">Weather App</p>
+</header>
+<div class="main row">
+    <div id="map" class="google_maps col-xs-12 col-sm-12 col-md-8 col-lg-8">
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 border">
+        <div class="info">
+            <div class="address">
+                <p id="city"> Kyiv </p>
+            </div>
+            <div class="weather_box">
+                <div class="row">
+                    <img id="weather" class="col-xs-4 col-sm-4 col-md-4 col-lg-4" src="images/weather/fog.png">
+                    <img id=temperature_icon" class="col-xs-4 col-sm-4 col-md-4 col-lg-4"
+                         src="images/weather/temperature.png">
+                    <div id="temperature" class="temperature col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        26.6°C
+                    </div>
+                </div>
+            </div>
+            <div class="recommendation">
+                <div class="row">
+                    <div class="man col-xs-6 col-sm-6 col-md-12 col-lg-12">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3"><img src=""
+                                                                                    id="man-top"/></div>
+                            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3"><img src=""
+                                                                                    id="man-accessory"/></div>
+                            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3"><img src=""
+                                                                                    id="man-trousers"/></div>
+                            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3"><img src=""
+                                                                                    id="man-shoes"/></div>
+                        </div>
+                    </div>
+                    <div class="woman col-xs-6 col-sm-6 col-md-12 col-lg-12">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3"><img src=""
+                                                                                    id="woman-top"/></div>
+                            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3"><img src=""
+                                                                                    id="woman-accessory"/></div>
+                            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3"><img src=""
+                                                                                    id="woman-trousers"/></div>
+                            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3"><img src=""
+                                                                                    id="woman-shoes"/></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery JavaScript -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!--Bootsrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!--GOOGLE MAPS -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHDwXJ7pwhlb1hPPBsIXKE1b_Cxqhrvgo&callback=initMap"
+            async
+            defer></script>
+    <!--Own JavaScript -->
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

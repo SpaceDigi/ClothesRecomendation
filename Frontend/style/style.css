@@ -1,0 +1,100 @@
+.header{
+    background: #333;
+    height: 10vh;
+    font-size: 6vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.main{
+    padding: 20px 40px;
+    height: 80vh;
+}
+.google_maps {
+    height: 100%;
+    border-radius: 25px;
+}
+
+.border{
+    padding: 10px;
+}
+.info{
+    padding: 10px;
+    border: 1px solid #141417;
+    border-radius: 25px;
+}
+
+.address{
+    height: 13%;
+    margin-left: 2.5vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-size: 4vh;
+    border-bottom: 3px dotted grey;
+}
+
+.weather_box {
+    width: 100%;
+    height: 25%;
+}
+
+#weather{
+    margin-left: 5%;
+    width: 120px;
+    height: 120px;
+}
+.man>div>div>img, .woman>div>div>img{
+    max-height: 70px;
+    max-width: 70px;
+}
+#temperature_icon{
+    position: absolute;
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.temperature{
+    font-size: 5vh;
+    font-family: HelveticaNeue;
+}
+
+.about {
+    color: whitesmoke;
+}
+
+.about:hover {
+    color: rgb(173,51,36);
+}
+.column {
+    position: absolute;
+    top: 20%;
+    left:10%;
+}
+
+.row_about {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.row_about_2 {
+    font-size: 25px;
+}
+
+.row_about_3 {
+    font-size: 17px;
+}
+
+.row_about_4 {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.temperature {
+
+}
+
+.weather-icon {
+    width: 50%;
+}
